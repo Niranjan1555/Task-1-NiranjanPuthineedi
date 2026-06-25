@@ -38,6 +38,9 @@ while True:
     elif user == "tell me a joke":
         print("Bot: Why do programmers prefer dark mode? Because light attracts bugs!")
 
+    elif user == "tell me a story title":
+        print("Bot: Professional Student!")
+
    
     elif user == "add":
         num1 = float(input("Enter first number: "))
@@ -74,6 +77,7 @@ Bot: Available commands:
 - which college are you from
 - which branch
 - tell me a joke
+- tell me a story title
 - add
 - subtract
 - multiply
